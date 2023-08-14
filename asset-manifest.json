@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clientapp/static/css/main.13759b80.css",
+    "main.js": "/clientapp/static/js/main.c04667ca.js",
+    "static/js/787.b6fd2ddb.chunk.js": "/clientapp/static/js/787.b6fd2ddb.chunk.js",
+    "static/media/KotaPermaiLogo.png": "/clientapp/static/media/KotaPermaiLogo.71ac4693220713a7326d.png",
+    "index.html": "/clientapp/index.html",
+    "main.13759b80.css.map": "/clientapp/static/css/main.13759b80.css.map",
+    "main.c04667ca.js.map": "/clientapp/static/js/main.c04667ca.js.map",
+    "787.b6fd2ddb.chunk.js.map": "/clientapp/static/js/787.b6fd2ddb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13759b80.css",
+    "static/js/main.c04667ca.js"
+  ]
+}
