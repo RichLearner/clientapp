@@ -1,0 +1,41 @@
+﻿.landing-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.caddies-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.caddie-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caddie-name {
+    font-weight: bold;
+}
+
+.assessment {
+    color: #888;
+}
+
+.no-rating {
+    color: red;
+}
+
+.rating-given {
+    color: green;
+}
