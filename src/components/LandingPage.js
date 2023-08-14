@@ -26,7 +26,7 @@ const LandingPage = () => {
     }, [formattedReceiptNumber, dataFetched]);
 
     const fetchCaddies = async (receiptNumber) => {
-        const apiUrl = '/ClubApp/Json/Default.aspx';
+        const apiUrl = 'https://app.kotapermaionline.com.my/ClubApp/Json/Default.aspx';
 
         const requestBody = {
             Type: 'GolfGetRegisterFlightCaddy',

@@ -26,7 +26,7 @@ const RatingForm = ({ match }) => {
     useEffect(() => {
         // Call API using chitId and caddyId
         const fetchCaddyAssessment = async () => {
-            const apiUrl = '/ClubApp/Json/Default.aspx';
+            const apiUrl = 'https://app.kotapermaionline.com.my/ClubApp/Json/Default.aspx';
             const requestBody = {
                 Type: 'GolfGetCaddyAssessment',
                 Input: {
