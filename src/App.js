@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import RatingForm from './components/RatingForm';
 import ThankYou from './components/ThankYou';

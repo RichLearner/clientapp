@@ -48,15 +48,6 @@ const RatingForm = ({ match }) => {
         fetchCaddyAssessment();
     }, [chitId, caddyId]);
 
-
-    const initializeRatings = (assessmentList) => {
-        const initialRatings = {};
-        assessmentList.forEach((item) => {
-            initialRatings[item.AssessID] = 0;
-        });
-        setRatings(initialRatings);
-    };
-
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -65,11 +56,11 @@ const RatingForm = ({ match }) => {
             Assessment: assessmentValueMap[ratings[assessment.AssessID]],
         }));
 
-        const formData = {
-            caddyId,
-            caddyAssessment: assessmentList,
-            Remarks: remarks,
-        };
+        // const formData = {
+        //     caddyId,
+        //     caddyAssessment: assessmentList,
+        //     Remarks: remarks,
+        // };
 
         const apiUrl = '/ClubApp/Json/Default.aspx';
 
